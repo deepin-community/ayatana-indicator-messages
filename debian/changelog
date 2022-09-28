@@ -1,0 +1,116 @@
+ayatana-indicator-messages (0.8.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    + Bump Standards-Version: to 4.5.1. No changes needed.
+    + Fix capitalization of the word 'Xfce'.
+  * debian/watch:
+    + Update format version to 4.
+  * debian/rules:
+    + Move gtk-doc html files into package's doc folder.
+  * debian/libmessaging-menu-dev.doc-base:
+    + Add file.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 03 Feb 2021 13:15:27 +0100
+
+ayatana-indicator-messages (0.8.1-2) unstable; urgency=medium
+
+  * debian/control:
+    + Add Debian UBports Team to Uploaders: field.
+    + Mention desktop envs that support system indicators in LONG_DESCRIPTION.
+    + Typo fix in LONG_DESCRIPTION.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 07 Nov 2020 15:12:17 +0100
+
+ayatana-indicator-messages (0.8.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 10 Sep 2020 22:36:48 +0200
+
+ayatana-indicator-messages (0.8.0-3) unstable; urgency=medium
+
+  * Source-only upload as is.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 18 Aug 2020 11:56:27 +0200
+
+ayatana-indicator-messages (0.8.0-2) unstable; urgency=medium
+
+  * debian/control:
+    + Add B-D systemd for [linux-any] architectures.
+    + Add B-D: dh-exec.
+  * debian/ayatana-indicator-messages.install:
+    + Install systemd service file only for [linux-any] architectures.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 18 Aug 2020 11:49:04 +0200
+
+ayatana-indicator-messages (0.8.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    + Add to D (ayatana-indicator-messages): ayatana-indicator-common
+      (>= 0.8.0).
+  * debian/copyright:
+    + Update copyright attributions.
+  * debian/ayatana-indicator-messages.install:
+    + Drop upstart conf file, add systemd service file.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 18 Aug 2020 09:48:49 +0200
+
+ayatana-indicator-messages (0.6.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    + Bump DH compat level to version 13.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 06 Aug 2020 14:20:11 +0200
+
+ayatana-indicator-messages (0.6.1-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Stop using deprecated g_type_class_add_private. (Closes: #951994).
+  * debian/patches:
+    + Drop 0001_Fix-pkg-config-file-library-and-path-flags.patch. Applied
+      upstream.
+  * debian/control:
+    + Bump Standards-Version: to 4.5.0. No changes needed.
+    + Add Rules-Requires-Root: field and set it to 'no'.
+  * debian/{control,compat}:
+    + Switch to debhelper-compat notation, bump DH compat level to version 12.
+  * debian/rules:
+    + Switch from dh_install --fail-missing to dh_missing --fail-missing.
+  * debian/ayatana-indicator-messages.install:
+    + Adapt installation path. Service executable now gets installed to
+      /usr/libexec/.
+  * debian/libmessaging-menu0.symbols:
+    + Add Build-Depends-Package: metadata field.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 24 Feb 2020 10:08:04 +0100
+
+ayatana-indicator-messages (0.6.0-3) unstable; urgency=medium
+
+  * debian/control:
+    + Add B/R for indicator-messages. The a-i-messages and i-messages bin:pkgs
+      share the same artwork files.
+    + Bump Standards-Version: to 4.4.0. No changes needed.
+  * debian/patches:
+    + Add 0001_Fix-pkg-config-file-library-and-path-flags.patch. Adapt paths and
+      filenames to recently reworked install target. (Closes: #923958).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 07 Aug 2019 01:54:05 +0200
+
+ayatana-indicator-messages (0.6.0-2) unstable; urgency=medium
+
+  * debian/control:
+    + Update Vcs-*: fields. Packaging Git has been migrated to salsa.debian.org.
+    + Bump Standards-Version: to 4.2.0. No changes needed.
+  * debian/upstream/metadata:
+    + Add file. Comply with DEP-12.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 14 Aug 2018 18:51:18 +0200
+
+ayatana-indicator-messages (0.6.0-1) unstable; urgency=medium
+
+  * Initial release to Debian. (Closes: #893875).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 23 Mar 2018 15:16:57 +0100

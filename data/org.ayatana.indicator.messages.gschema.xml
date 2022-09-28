@@ -1,0 +1,11 @@
+<schemalist>
+  <schema id="org.ayatana.indicator.messages" path="/org/ayatana/indicator/messages/" gettext-domain="ayatana-indicator-messages">
+    <key name="applications" type="as">
+      <summary>List of applications that are shown in the messaging menu</summary>
+      <description>
+        Applications corresponding to the desktop file IDs in this list are shown in the messaging menu.
+      </description>
+      <default>[]</default>
+    </key>
+  </schema>
+</schemalist>

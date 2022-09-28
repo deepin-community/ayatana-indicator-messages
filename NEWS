@@ -1,0 +1,34 @@
+Overview of changes in ayatana-indicator-messages 0.8.2
+
+  - Translation updates.
+
+Overview of changes in ayatana-indicator-messages 0.8.1
+
+  - Translation updates.
+
+Overview of changes in ayatana-indicator-messages 0.8.0
+
+  - Version bump to bring all system indicators (and the
+    renderer libraries to the same version level).
+  - Rename 'x-canonical-type' attribute to 'x-ayatana-type'
+    (and others) to allow using system indicators from
+    Ayatana Indicators on Ubuntu.
+  - Start the indicator with the ayatana-indicators.target.
+  - Drop upstart support.
+
+Overview of changes in ayatana-indicator-messages 0.6.2
+
+  - configure.ac: Drop "subdir-projects" from AM_INIT_AUTOMAKE.
+  - Translation updates (thanks to all translaters
+    contributing to hosted Weblate).
+
+Overview of changes in ayatana-indicator-messages 0.6.1
+
+  - Stop using deprecated g_type_class_add_private().
+  - Translation updates (thanks to all translaters
+    contributing to hosted Weblate).
+
+Overview of changes in ayatana-indicator-messages 0.6.0
+
+  - Fork from Ubuntu Indicators' indicator-messages project.
+    https://launchpad.net/indicator-messages

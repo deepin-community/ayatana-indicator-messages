@@ -1,0 +1,71 @@
+# Japanese translations for PACKAGE package.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-28 20:22+0200\n"
+"PO-Revision-Date: 2020-03-17 04:36+0000\n"
+"Last-Translator: Grace Guo <grace@appest.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"ayatana-indicators/messages-applet/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.0-dev\n"
+
+#: ../data/org.ayatana.indicator.messages.gschema.xml:1
+msgid "List of applications that are shown in the messaging menu"
+msgstr "メッセージングメニューに表示されるアプリケーションのリスト"
+
+#: ../data/org.ayatana.indicator.messages.gschema.xml:2
+msgid ""
+"Applications corresponding to the desktop file IDs in this list are shown in "
+"the messaging menu."
+msgstr "このリストのデスクトップファイルIDに対応するアプリケーションは、メッセージングメニューに表示されます。"
+
+#: ../src/im-application-list.c:231
+msgid "New Messages"
+msgstr "新規メッセージ"
+
+#: ../src/im-application-list.c:235
+msgid "Messages"
+msgstr "メッセージ"
+
+#. title
+#: ../src/im-application-list.c:258
+msgid "Notifications"
+msgstr "通知"
+
+#: ../src/im-desktop-menu.c:67
+msgid "Available"
+msgstr "有効"
+
+#: ../src/im-desktop-menu.c:68
+msgid "Away"
+msgstr "離れて"
+
+#: ../src/im-desktop-menu.c:69
+msgid "Busy"
+msgstr "ビジー"
+
+#: ../src/im-desktop-menu.c:70
+msgid "Invisible"
+msgstr "非表示"
+
+#: ../src/im-desktop-menu.c:71
+msgid "Offline"
+msgstr "オフライン"
+
+#: ../src/im-desktop-menu.c:367
+msgid "Clear"
+msgstr "クリア"
+
+#: ../src/im-phone-menu.c:76
+msgid "Clear All"
+msgstr "すべてクリアする"
